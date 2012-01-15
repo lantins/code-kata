@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(iris-bt)
+project(sudoku-solver)
 
 # Force C89 compatibility.
 add_definitions(-std=c89 -pedantic)
