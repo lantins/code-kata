@@ -14,6 +14,11 @@ Defines
 Declarations
 */
 
+#ifndef WIN32
+unsigned int GetTickCount( void );
+void _getch( void );
+#endif
+
 void seatest_test_fixture_start(char* filepath);
 void seatest_test_fixture_end( void );
 void seatest_simple_test_result(int passed, char* reason, const char* function, unsigned int line);
@@ -29,9 +34,11 @@ void seatest_assert_string_starts_with(char* expected, char* actual, const char*
 void seatest_assert_string_contains(char* expected, char* actual, const char* function, unsigned int line);
 void seatest_assert_string_doesnt_contain(char* expected, char* actual, const char* function, unsigned int line);
 int seatest_should_run( char* fixture, char* test);
+void seatest_header_printer(char* s, int length, char f);
 void seatest_run_test(void);
 void seatest_setup( void );
 void seatest_teardown( void );
+char* test_file_name(char* path);
 void seatest_suite_teardown( void );
 void seatest_suite_setup( void );
 
