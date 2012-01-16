@@ -11,6 +11,6 @@
 void tic_tac_toe_test_suite(void);
 
 /* unit tests */
-void test_we_can_run_unit_tests(void);
+void test_can_run_unit_tests(void);
 
 #endif
