@@ -11,9 +11,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+/* max moves possible per game */
 #define kLP_TTT_MAX_MOVES 9
-#define kLP_TTT_STATE_TURN_X 1
-#define kLP_TTT_STATE_TURN_O 2
+
+#define kLP_TTT_STATE_ILIGAL_MOVE -1
+#define kLP_TTT_TURN_X 1
+#define kLP_TTT_TURN_O 2
 
 /* --- function prototypes ------------------------------------------------ */
 
