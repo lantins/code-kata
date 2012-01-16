@@ -1,5 +1,5 @@
 #include "tic_tac_toe.h"
 
-void lp_ttt_test_first(void) {
-    
+int lp_ttt_play(void) {
+    return 0;
 }

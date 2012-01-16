@@ -13,6 +13,6 @@
 
 /* --- function prototypes ------------------------------------------------ */
 
-void lp_ttt_test_first(void);
+int lp_ttt_play(void);
 
 #endif
