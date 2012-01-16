@@ -14,12 +14,13 @@
 /* max moves possible per game */
 #define kLP_TTT_MAX_MOVES 9
 
-#define kLP_TTT_STATE_ILLEGAL_MOVE -1
+#define kLP_TTT_ILLEGAL_GAME_STATE -1
 #define kLP_TTT_TURN_X 1
 #define kLP_TTT_TURN_O 2
 
 /* --- function prototypes ------------------------------------------------ */
 
-int lp_ttt_play(int moves[]);
+int lp_ttt_play(int previous_moves[], size_t moves_taken);
+int lp_ttt_only_legal_moves(int previous_moves[], size_t moves_taken);
 
 #endif

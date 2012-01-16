@@ -15,6 +15,8 @@ void test_can_run_unit_tests(void);
 void test_zero_moves_means_x_goes_first(void);
 void test_o_moves_after_x(void);
 void test_x_moves_after_o(void);
-void test_can_detect_an_illegal_move(void);
+void test_can_detect_an_illegal_state_top_left(void);
+void test_can_detect_an_illegal_state_top_right(void);
+void test_can_detect_an_illegal_state_after_several_moves(void);
 
 #endif
