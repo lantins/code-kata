@@ -13,3 +13,10 @@ Goal
 ----
 
 Code `tic tac toe` game engine, play through moves and determian winner.
+
+Compile Instructions
+--------------------
+
+    $ cd build                              # change into the build directory
+    $ cmake -DCMAKE_BUILD_TYPE=RELEASE ..   # release build please
+    $ make                                  # as normal
