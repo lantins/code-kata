@@ -71,4 +71,4 @@ void test_filter(char* filter);
 int run_tests(void (*tests)(void));
 void suite_teardown(void (*teardown)( void ));
 void suite_setup(void (*setup)( void ));
-#endif 
+#endif
