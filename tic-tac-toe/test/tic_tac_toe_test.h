@@ -12,6 +12,6 @@ void tic_tac_toe_test_suite(void);
 
 /* unit tests */
 void test_can_run_unit_tests(void);
-void test_calculate_game_state_from_player_moves(void);
+void test_zero_moves_means_new_game(void);
 
 #endif
