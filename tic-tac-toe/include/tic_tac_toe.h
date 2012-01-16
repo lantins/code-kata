@@ -11,8 +11,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define kLP_TTT_MAX_MOVES 9
+#define kLP_TTT_STATE_TURN_X 1
+#define kLP_TTT_STATE_TURN_O 2
+
 /* --- function prototypes ------------------------------------------------ */
 
-int lp_ttt_play(void);
+int lp_ttt_play(int moves[]);
 
 #endif
